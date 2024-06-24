@@ -1,0 +1,46 @@
+# RGB is supported on 1.16+
+# How to use: hex #ABCDEF -> &x&A&B&C&D&E&F
+message:
+  announcement:
+    answer: '&c&lTRIVIA &8» &fNo one won the game! The answer was: &c%answer%'
+    game-over: '&c&lTRIVIA &8» &fThe Chat Games have ended.'
+    no-players: '&c&lTRIVIA &8» &fNot enough players are currently online &c(%online%/%required%)&7.'
+    win-time: '&c&lTRIVIA &8» &fTime: %time% Seconds'
+    win: '&c&lTRIVIA &8» &c%player% &fhas won the game!'
+  command:
+    current:
+      answer: '&fAnswer: &6>>&c %answer%'
+      header: '&4Current question:'
+      no-game: '&cNo game is currently active.'
+      question: '&4Question: &c%question%'
+      time: '&fStarted: &c%time% &fseconds ago'
+    leaderboard:
+      empty: '&cNo scores yet.'
+      entry: '&c%place%&6 >> &c%name% &9-&a %score%'
+      loading: '&6Loading leaderboard...'
+    list:
+      entry: '&f - &7&l%entry%'
+      header: '&6Loaded question generators:'
+    generic:
+      disabled: disabled
+      enabled: enabled
+      no-permission: '&cNo permission.'
+      not-a-player: '&cYou must be a player to do this.'
+      unknown-player: '&7%player% &cis not a known player.'
+    reload:
+      fail: '&cAn error occurred while reloading. Check console.'
+      success: '&1Reloaded successfully.'
+    reset:
+      all: '&6Resetting leaderboard...'
+      player: '&6Resetting leaderboard score for &c%player%&c...'
+    skip: '&6Skipped to the next question.'
+    toggle: '&c&lTRIVIA &8» &6%state%&6.'
+    version: '&c&lTRIVIA &8» version &6%version% &7by &6UnitedsMC'
+  game:
+    alphabet: '&c&lTRIVIA &8» &7Give the &e%question% &7letter in the alphabet to
+      get rewards!'
+    arithmetic: '&c&lTRIVIA &8» &7Solve &e%question% &7to get rewards!'
+    copy: '&c&lTRIVIA &8» &7Copy &e%question% &7to get rewards!'
+    decode: '&c&lTRIVIA &8» &7Decode &e%question% &7to get rewards!'
+    trivia: '&c&lTRIVIA &8» &7%question%'
+  win: '&c&lTRIVIA &8» &7You won!'
